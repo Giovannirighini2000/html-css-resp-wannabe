@@ -1,3 +1,8 @@
+@media screen and (max-width:1160px) {
+    .container{
+        max-width: 100%;
+    }
+}
 @media screen and (max-width: 768px) {
   h1{
     width: 100%;
@@ -7,4 +12,29 @@
   .container{
     width: 100%;
   }
+}
+@media screen and (max-width: 480px) {
+    .row{
+        flex-direction: column;
+    }
+}
+@media screen  and (max-width: 480px){
+    .row >[class^='col']{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px){
+    .why-us{
+        background-color: #222222;
+        margin-bottom: 0;
+        
+    }
+
+}
+@media screen and (max-width: 480px){
+    .steps{       
+        margin-bottom: 0;
+        
+    }
+
 }
